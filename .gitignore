@@ -1,0 +1,4 @@
+models/
+*_pred.jpg
+__pycache__/
+.ipynb_checkpoints/

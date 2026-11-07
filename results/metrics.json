@@ -1,0 +1,24 @@
+{
+  "baseline_cnn": {
+    "test_accuracy": 0.9889152646064758,
+    "test_loss": 0.04533861204981804,
+    "macro_f1": 0.9792619976077069,
+    "best_epoch": 22,
+    "val_accuracy": 0.9937419891357422,
+    "val_loss": 0.02055244892835617
+  },
+  "pipeline": {
+    "detection_recall": 0.9916897506925207,
+    "detection_precision": 0.9572192513368984,
+    "cls_acc_on_detected": 0.9972067039106145,
+    "cnn_acc_on_gt_crops": 1.0,
+    "e2e_recall": 0.9889196675900277,
+    "e2e_precision": 0.9545454545454546
+  },
+  "yolo_detector": {
+    "precision": 0.9896013057987,
+    "recall": 0.9806094182825484,
+    "mAP50": 0.9927106038613451,
+    "mAP50_95": 0.8971206704894163
+  }
+}
